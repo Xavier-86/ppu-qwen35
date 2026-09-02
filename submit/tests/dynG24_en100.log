@@ -1,0 +1,78 @@
+Current acext version: 1050100
+acext token limit: 6144
+Overlap scheduler is disabled because of using speculative decoding.
+[ACEXT] [INFO]: load libthop.so success.
+[ACEXT] [INFO]: load libthop.so success.
+INFO 09-01 15:17:46 __init__.py:190] Automatically detected platform cuda.
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.43it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.43it/s]
+
+VITGRAPH capture bucket=256
+VITGRAPH capture bucket=320
+VITGRAPH capture bucket=384
+VITGRAPH capture bucket=448
+VITGRAPH capture bucket=512
+VITGRAPH capture bucket=576
+VITGRAPH capture bucket=640
+VITGRAPH capture bucket=704
+VITGRAPH capture bucket=768
+VITGRAPH capture bucket=832
+VITGRAPH capture bucket=896
+VITGRAPH capture bucket=960
+VITGRAPH capture bucket=1024
+VITGRAPH capture bucket=1088
+VITGRAPH capture bucket=1152
+VITGRAPH capture bucket=1216
+VITGRAPH capture bucket=1280
+VITGRAPH capture bucket=1344
+VITGRAPH capture bucket=1408
+VITGRAPH capture bucket=1472
+VITGRAPH capture bucket=1536
+VITGRAPH capture bucket=1600
+VITGRAPH capture bucket=1664
+VITGRAPH capture bucket=1728
+VITGRAPH capture bucket=1792
+VITGRAPH capture bucket=1856
+VITGRAPH capture bucket=1920
+VITGRAPH capture bucket=1984
+VITGRAPH capture bucket=2048
+VITGRAPH warmup captured 29 buckets in 4.3s
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00, 34.52it/s]
+
+EXTGRAPH capture bucket=192 capture_len=96 seconds=0.276
+EXTGRAPH capture bucket=256 capture_len=128 seconds=0.197
+EXTGRAPH capture bucket=320 capture_len=160 seconds=0.212
+EXTGRAPH capture bucket=384 capture_len=192 seconds=0.197
+EXTGRAPH capture total buckets=(192, 256, 320, 384) seconds=0.883
+LONGPREFILL warmup len=512 done
+LONGPREFILL warmup len=768 done
+LONGPREFILL warmup lens=[512, 768] seconds=0.1
+CHAIN2STATS rounds=20 tokens_per_round=4.5000 first_accept_rate=0.9500 second_accept_rate=0.8500 second_accept_conditional=0.8947 third_accept_rate=0.8500 third_accept_conditional=1.0000 fourth_accept_rate=0.8500 fourth_accept_conditional=1.0000
+DYNDEPTH rounds=20 extra_hist=[0, 0, 0, 20] q=[0.955, 0.955, 0.955] step_ms=0.2510 token_ms=1.2950
+CHAIN2STATS rounds=40 tokens_per_round=4.5750 first_accept_rate=0.9500 second_accept_rate=0.8750 second_accept_conditional=0.9211 third_accept_rate=0.8750 third_accept_conditional=1.0000 fourth_accept_rate=0.8750 fourth_accept_conditional=1.0000
+DYNDEPTH rounds=40 extra_hist=[0, 0, 0, 40] q=[0.98, 0.98, 0.98] step_ms=0.4283 token_ms=1.2564
+CHAIN2STATS rounds=60 tokens_per_round=4.5833 first_accept_rate=0.9667 second_accept_rate=0.8833 second_accept_conditional=0.9138 third_accept_rate=0.8667 third_accept_conditional=0.9811 fourth_accept_rate=0.8667 fourth_accept_conditional=1.0000
+DYNDEPTH rounds=60 extra_hist=[0, 0, 0, 60] q=[0.9652, 0.7152, 0.7152] step_ms=0.2647 token_ms=1.4214
+CHAIN2STATS rounds=80 tokens_per_round=4.1875 first_accept_rate=0.9250 second_accept_rate=0.8000 second_accept_conditional=0.8649 third_accept_rate=0.7750 third_accept_conditional=0.9688 fourth_accept_rate=0.6875 fourth_accept_conditional=0.8871
+DYNDEPTH rounds=80 extra_hist=[0, 0, 4, 76] q=[0.8716, 0.7917, 0.0625] step_ms=0.2731 token_ms=1.8074
+CHAIN2STATS rounds=100 tokens_per_round=4.1900 first_accept_rate=0.9400 second_accept_rate=0.8400 second_accept_conditional=0.8936 third_accept_rate=0.8100 third_accept_conditional=0.9643 fourth_accept_rate=0.6000 fourth_accept_conditional=0.7407
+DYNDEPTH rounds=100 extra_hist=[0, 0, 19, 81] q=[0.9996, 0.9983, 0.7775] step_ms=0.2653 token_ms=1.1981
+CHAIN2STATS rounds=120 tokens_per_round=4.3000 first_accept_rate=0.9500 second_accept_rate=0.8583 second_accept_conditional=0.9035 third_accept_rate=0.8333 third_accept_conditional=0.9709 fourth_accept_rate=0.6583 fourth_accept_conditional=0.7900
+DYNDEPTH rounds=120 extra_hist=[0, 0, 19, 101] q=[0.975, 0.975, 0.9743] step_ms=0.2610 token_ms=1.2082
+CHAIN2STATS rounds=140 tokens_per_round=4.2929 first_accept_rate=0.9571 second_accept_rate=0.8429 second_accept_conditional=0.8806 third_accept_rate=0.8214 third_accept_conditional=0.9746 fourth_accept_rate=0.6714 fourth_accept_conditional=0.8174
+DYNDEPTH rounds=140 extra_hist=[0, 0, 19, 121] q=[0.9837, 0.9837, 0.9837] step_ms=0.2643 token_ms=1.1840
+CHAIN2STATS rounds=160 tokens_per_round=4.3812 first_accept_rate=0.9625 second_accept_rate=0.8625 second_accept_conditional=0.8961 third_accept_rate=0.8438 third_accept_conditional=0.9783 fourth_accept_rate=0.7125 fourth_accept_conditional=0.8444
+DYNDEPTH rounds=160 extra_hist=[0, 0, 19, 141] q=[0.9999, 0.9999, 0.9999] step_ms=0.2592 token_ms=1.1542
+CHAIN2STATS rounds=180 tokens_per_round=4.3778 first_accept_rate=0.9611 second_accept_rate=0.8556 second_accept_conditional=0.8902 third_accept_rate=0.8389 third_accept_conditional=0.9805 fourth_accept_rate=0.7222 fourth_accept_conditional=0.8609
+DYNDEPTH rounds=180 extra_hist=[0, 0, 19, 161] q=[0.7341, 0.7341, 0.7341] step_ms=0.2631 token_ms=1.9542
+{
+  "backend": "sglang",
+  "sample_count": 100,
+  "avg_ttft_ms": 23.724,
+  "avg_throughput_tokens_per_sec": 626.636,
+  "accuracy": 0.79,
+  "public_validation_passed": true
+}
+[W901 15:18:09.202752882 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]

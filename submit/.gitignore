@@ -1,0 +1,13 @@
+# Local caches and generated benchmark results
+.DS_Store
+.cache/
+__pycache__/
+*.pyc
+result/
+results/
+result*.json
+.slim-backup/
+datasets/mmbench/
+
+# 模型权重不随 git 提交，由评测环境提供
+Qwen3.5-2B/*.safetensors

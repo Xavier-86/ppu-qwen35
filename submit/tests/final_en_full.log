@@ -1,0 +1,60 @@
+Current acext version: 1050100
+acext token limit: 6144
+Overlap scheduler is disabled because of using speculative decoding.
+[ACEXT] [INFO]: load libthop.so success.
+[ACEXT] [INFO]: load libthop.so success.
+INFO 09-01 15:22:18 __init__.py:190] Automatically detected platform cuda.
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.44it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.44it/s]
+
+VITGRAPH capture bucket=256
+VITGRAPH capture bucket=320
+VITGRAPH capture bucket=384
+VITGRAPH capture bucket=448
+VITGRAPH capture bucket=512
+VITGRAPH capture bucket=576
+VITGRAPH capture bucket=640
+VITGRAPH capture bucket=704
+VITGRAPH capture bucket=768
+VITGRAPH capture bucket=832
+VITGRAPH capture bucket=896
+VITGRAPH capture bucket=960
+VITGRAPH capture bucket=1024
+VITGRAPH capture bucket=1088
+VITGRAPH capture bucket=1152
+VITGRAPH capture bucket=1216
+VITGRAPH capture bucket=1280
+VITGRAPH capture bucket=1344
+VITGRAPH capture bucket=1408
+VITGRAPH capture bucket=1472
+VITGRAPH capture bucket=1536
+VITGRAPH capture bucket=1600
+VITGRAPH capture bucket=1664
+VITGRAPH capture bucket=1728
+VITGRAPH capture bucket=1792
+VITGRAPH capture bucket=1856
+VITGRAPH capture bucket=1920
+VITGRAPH capture bucket=1984
+VITGRAPH capture bucket=2048
+VITGRAPH warmup captured 29 buckets in 4.4s
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00, 35.83it/s]
+
+EXTGRAPH capture bucket=192 capture_len=96 seconds=0.241
+EXTGRAPH capture bucket=256 capture_len=128 seconds=0.197
+EXTGRAPH capture bucket=320 capture_len=160 seconds=0.281
+EXTGRAPH capture bucket=384 capture_len=192 seconds=0.207
+EXTGRAPH capture total buckets=(192, 256, 320, 384) seconds=0.928
+LONGPREFILL warmup len=512 done
+LONGPREFILL warmup len=768 done
+LONGPREFILL warmup lens=[512, 768] seconds=0.1
+{
+  "backend": "sglang",
+  "sample_count": 4029,
+  "avg_ttft_ms": 27.628,
+  "avg_throughput_tokens_per_sec": 594.2,
+  "accuracy": 0.799702,
+  "public_validation_passed": true
+}
+[W901 15:28:38.634300740 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]

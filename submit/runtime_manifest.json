@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "bundle_root": "rapid_reasoning",
+  "bundled_components": {
+    "sglang": {
+      "path": "rapid_reasoning/sglang",
+      "version": "0.4.6.post1-ppu-qwen35",
+      "license": "rapid_reasoning/third_party_licenses/sglang-LICENSE"
+    },
+    "sgl-kernel": {
+      "path": "rapid_reasoning/runtime_packages/sgl_kernel",
+      "version": "0.1.0",
+      "binary": "common_ops.abi3.so",
+      "binary_sha256": "a07c8c2711f50b4e08f28dc890d87e710dcef013d5ddd50e517f3c6fe6898151",
+      "license": "rapid_reasoning/third_party_licenses/sgl-kernel-LICENSE"
+    },
+    "triton": {
+      "path": "rapid_reasoning/runtime_packages/triton",
+      "version": "3.1.0",
+      "binary": "_C/libtriton.so",
+      "binary_sha256": "459651dd494a8c9c55e27770c00590b8b7008fd5b3097b0fb21e01a2bac794b8",
+      "license": "rapid_reasoning/third_party_licenses/triton-LICENSE"
+    }
+  },
+  "platform_abi": {
+    "torch": "2.6.0",
+    "torchvision": "0.21.0",
+    "transformers": "4.51.3"
+  }
+}

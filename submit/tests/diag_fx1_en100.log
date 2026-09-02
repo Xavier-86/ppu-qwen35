@@ -1,0 +1,74 @@
+Current acext version: 1050100
+acext token limit: 6144
+Overlap scheduler is disabled because of using speculative decoding.
+[ACEXT] [INFO]: load libthop.so success.
+[ACEXT] [INFO]: load libthop.so success.
+INFO 09-01 14:45:57 __init__.py:190] Automatically detected platform cuda.
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.36it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.36it/s]
+
+VITGRAPH capture bucket=256
+VITGRAPH capture bucket=320
+VITGRAPH capture bucket=384
+VITGRAPH capture bucket=448
+VITGRAPH capture bucket=512
+VITGRAPH capture bucket=576
+VITGRAPH capture bucket=640
+VITGRAPH capture bucket=704
+VITGRAPH capture bucket=768
+VITGRAPH capture bucket=832
+VITGRAPH capture bucket=896
+VITGRAPH capture bucket=960
+VITGRAPH capture bucket=1024
+VITGRAPH capture bucket=1088
+VITGRAPH capture bucket=1152
+VITGRAPH capture bucket=1216
+VITGRAPH capture bucket=1280
+VITGRAPH capture bucket=1344
+VITGRAPH capture bucket=1408
+VITGRAPH capture bucket=1472
+VITGRAPH capture bucket=1536
+VITGRAPH capture bucket=1600
+VITGRAPH capture bucket=1664
+VITGRAPH capture bucket=1728
+VITGRAPH capture bucket=1792
+VITGRAPH capture bucket=1856
+VITGRAPH capture bucket=1920
+VITGRAPH capture bucket=1984
+VITGRAPH capture bucket=2048
+VITGRAPH warmup captured 29 buckets in 4.4s
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00, 24.87it/s]
+
+EXTGRAPH capture bucket=192 capture_len=96 seconds=0.234
+EXTGRAPH capture bucket=256 capture_len=128 seconds=0.218
+EXTGRAPH capture bucket=320 capture_len=160 seconds=0.188
+EXTGRAPH capture bucket=384 capture_len=192 seconds=0.191
+EXTGRAPH capture total buckets=(192, 256, 320, 384) seconds=0.834
+LONGPREFILL warmup len=512 done
+LONGPREFILL warmup len=768 done
+LONGPREFILL warmup lens=[512, 768] seconds=0.1
+DYNDEPTH rounds=20 extra_hist=[0, 20, 0, 0] q=[0.8176, 1.0, 1.0] step_ms=0.4230 token_ms=1.8666
+DYNDEPTH rounds=40 extra_hist=[0, 40, 0, 0] q=[0.9582, 1.0, 1.0] step_ms=0.6743 token_ms=2.0725
+DYNDEPTH rounds=60 extra_hist=[0, 60, 0, 0] q=[0.983, 1.0, 1.0] step_ms=0.3982 token_ms=1.5914
+DYNDEPTH rounds=80 extra_hist=[0, 80, 0, 0] q=[0.9862, 1.0, 1.0] step_ms=0.4658 token_ms=1.5935
+DYNDEPTH rounds=100 extra_hist=[0, 100, 0, 0] q=[0.6709, 1.0, 1.0] step_ms=0.7337 token_ms=2.4808
+DYNDEPTH rounds=120 extra_hist=[0, 120, 0, 0] q=[0.9526, 1.0, 1.0] step_ms=0.4053 token_ms=1.6200
+DYNDEPTH rounds=140 extra_hist=[0, 140, 0, 0] q=[0.9982, 1.0, 1.0] step_ms=1.0932 token_ms=2.1697
+DYNDEPTH rounds=160 extra_hist=[0, 160, 0, 0] q=[0.8916, 1.0, 1.0] step_ms=0.4508 token_ms=1.7237
+DYNDEPTH rounds=180 extra_hist=[0, 180, 0, 0] q=[0.5707, 1.0, 1.0] step_ms=0.4096 token_ms=1.8880
+DYNDEPTH rounds=200 extra_hist=[0, 200, 0, 0] q=[0.9834, 1.0, 1.0] step_ms=0.3747 token_ms=1.5516
+DYNDEPTH rounds=220 extra_hist=[0, 220, 0, 0] q=[0.9994, 1.0, 1.0] step_ms=0.3600 token_ms=1.5310
+DYNDEPTH rounds=240 extra_hist=[0, 240, 0, 0] q=[1.0, 1.0, 1.0] step_ms=0.4653 token_ms=1.6268
+DYNDEPTH rounds=260 extra_hist=[0, 260, 0, 0] q=[0.9254, 1.0, 1.0] step_ms=0.4236 token_ms=1.6725
+DYNDEPTH rounds=280 extra_hist=[0, 280, 0, 0] q=[0.846, 1.0, 1.0] step_ms=0.3484 token_ms=1.7845
+{
+  "backend": "sglang",
+  "sample_count": 100,
+  "avg_ttft_ms": 24.891,
+  "avg_throughput_tokens_per_sec": 485.325,
+  "accuracy": 0.79,
+  "public_validation_passed": true
+}
+[W901 14:46:21.468995320 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]

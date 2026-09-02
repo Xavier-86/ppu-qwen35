@@ -1,0 +1,25 @@
+.DS_Store
+*.pdf
+*.dSYM/
+
+# AI assistant instruction files stay local
+AGENTS.md
+
+# Credentials and local secrets
+.aliyun-credentials.local
+.env
+*.pem
+
+# Large model files stay out of git
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# MMBench evaluation data is not redistributed with the repo
+submit/datasets/mmbench/*.tsv
+
+# SGLang 0.5.13 baseline workspace lives on the sglang-0.5.13-baseline branch; ignore entirely on main.
+dndx_n/

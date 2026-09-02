@@ -1,0 +1,2 @@
+rapid_reasoning/runtime_packages/triton/_C/libtriton.so filter=lfs diff=lfs merge=lfs -text
+rapid_reasoning/runtime_packages/sgl_kernel/*.so binary

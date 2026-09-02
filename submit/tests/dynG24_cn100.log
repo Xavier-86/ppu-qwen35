@@ -1,0 +1,226 @@
+Current acext version: 1050100
+acext token limit: 6144
+Overlap scheduler is disabled because of using speculative decoding.
+[ACEXT] [INFO]: load libthop.so success.
+[ACEXT] [INFO]: load libthop.so success.
+INFO 09-01 15:17:02 __init__.py:190] Automatically detected platform cuda.
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.37it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  1.37it/s]
+
+VITGRAPH capture bucket=256
+VITGRAPH capture bucket=320
+VITGRAPH capture bucket=384
+VITGRAPH capture bucket=448
+VITGRAPH capture bucket=512
+VITGRAPH capture bucket=576
+VITGRAPH capture bucket=640
+VITGRAPH capture bucket=704
+VITGRAPH capture bucket=768
+VITGRAPH capture bucket=832
+VITGRAPH capture bucket=896
+VITGRAPH capture bucket=960
+VITGRAPH capture bucket=1024
+VITGRAPH capture bucket=1088
+VITGRAPH capture bucket=1152
+VITGRAPH capture bucket=1216
+VITGRAPH capture bucket=1280
+VITGRAPH capture bucket=1344
+VITGRAPH capture bucket=1408
+VITGRAPH capture bucket=1472
+VITGRAPH capture bucket=1536
+VITGRAPH capture bucket=1600
+VITGRAPH capture bucket=1664
+VITGRAPH capture bucket=1728
+VITGRAPH capture bucket=1792
+VITGRAPH capture bucket=1856
+VITGRAPH capture bucket=1920
+VITGRAPH capture bucket=1984
+VITGRAPH capture bucket=2048
+VITGRAPH warmup captured 29 buckets in 4.5s
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00, 31.79it/s]
+
+EXTGRAPH capture bucket=192 capture_len=96 seconds=0.267
+EXTGRAPH capture bucket=256 capture_len=128 seconds=0.243
+EXTGRAPH capture bucket=320 capture_len=160 seconds=0.218
+EXTGRAPH capture bucket=384 capture_len=192 seconds=0.191
+EXTGRAPH capture total buckets=(192, 256, 320, 384) seconds=0.920
+LONGPREFILL warmup len=512 done
+LONGPREFILL warmup len=768 done
+LONGPREFILL warmup lens=[512, 768] seconds=0.1
+CHAIN2STATS rounds=20 tokens_per_round=2.2500 first_accept_rate=0.7000 second_accept_rate=0.4000 second_accept_conditional=0.5714 third_accept_rate=0.1500 third_accept_conditional=0.3750 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=20 extra_hist=[0, 6, 4, 10] q=[0.3733, 0.3548, 0.0563] step_ms=0.2960 token_ms=3.3642
+CHAIN2STATS rounds=40 tokens_per_round=2.3500 first_accept_rate=0.7250 second_accept_rate=0.4250 second_accept_conditional=0.5862 third_accept_rate=0.2000 third_accept_conditional=0.4706 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=40 extra_hist=[0, 11, 18, 11] q=[0.1846, 0.0781, 0.0422] step_ms=0.4156 token_ms=3.1265
+CHAIN2STATS rounds=60 tokens_per_round=2.3167 first_accept_rate=0.7167 second_accept_rate=0.4667 second_accept_conditional=0.6512 third_accept_rate=0.1333 third_accept_conditional=0.2857 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=60 extra_hist=[0, 31, 18, 11] q=[0.6197, 0.0781, 0.0422] step_ms=0.3261 token_ms=2.6862
+CHAIN2STATS rounds=80 tokens_per_round=2.2750 first_accept_rate=0.7250 second_accept_rate=0.4500 second_accept_conditional=0.6207 third_accept_rate=0.1000 third_accept_conditional=0.2222 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=80 extra_hist=[0, 50, 19, 11] q=[0.2767, 0.0586, 0.0422] step_ms=0.3365 token_ms=2.7086
+CHAIN2STATS rounds=100 tokens_per_round=2.3200 first_accept_rate=0.7300 second_accept_rate=0.4900 second_accept_conditional=0.6712 third_accept_rate=0.1000 third_accept_conditional=0.2041 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=100 extra_hist=[0, 65, 24, 11] q=[0.7851, 0.2336, 0.0422] step_ms=0.2820 token_ms=2.2721
+CHAIN2STATS rounds=120 tokens_per_round=2.2500 first_accept_rate=0.7000 second_accept_rate=0.4583 second_accept_conditional=0.6548 third_accept_rate=0.0917 third_accept_conditional=0.2000 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=120 extra_hist=[0, 77, 32, 11] q=[0.2788, 0.0568, 0.0422] step_ms=0.3265 token_ms=3.3674
+CHAIN2STATS rounds=140 tokens_per_round=2.2714 first_accept_rate=0.7214 second_accept_rate=0.4714 second_accept_conditional=0.6535 third_accept_rate=0.0786 third_accept_conditional=0.1667 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=140 extra_hist=[0, 96, 33, 11] q=[0.4183, 0.0426, 0.0422] step_ms=0.3516 token_ms=2.7791
+CHAIN2STATS rounds=160 tokens_per_round=2.2563 first_accept_rate=0.7125 second_accept_rate=0.4750 second_accept_conditional=0.6667 third_accept_rate=0.0688 third_accept_conditional=0.1447 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=160 extra_hist=[0, 115, 34, 11] q=[0.6332, 0.0319, 0.0422] step_ms=0.3008 token_ms=2.7391
+CHAIN2STATS rounds=180 tokens_per_round=2.2444 first_accept_rate=0.7111 second_accept_rate=0.4722 second_accept_conditional=0.6641 third_accept_rate=0.0611 third_accept_conditional=0.1294 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=180 extra_hist=[0, 135, 34, 11] q=[0.3466, 0.0319, 0.0422] step_ms=0.3496 token_ms=3.0645
+CHAIN2STATS rounds=200 tokens_per_round=2.3650 first_accept_rate=0.7400 second_accept_rate=0.5250 second_accept_conditional=0.7095 third_accept_rate=0.1000 third_accept_conditional=0.1905 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=200 extra_hist=[0, 146, 43, 11] q=[0.9979, 0.9273, 0.0422] step_ms=0.2658 token_ms=1.3574
+CHAIN2STATS rounds=220 tokens_per_round=2.5136 first_accept_rate=0.7636 second_accept_rate=0.5682 second_accept_conditional=0.7440 third_accept_rate=0.1818 third_accept_conditional=0.3200 fourth_accept_rate=0.0000 fourth_accept_conditional=0.0000
+DYNDEPTH rounds=220 extra_hist=[0, 146, 63, 11] q=[1.0, 0.9998, 0.0422] step_ms=0.2954 token_ms=1.3729
+CHAIN2STATS rounds=240 tokens_per_round=2.6375 first_accept_rate=0.7750 second_accept_rate=0.5917 second_accept_conditional=0.7634 third_accept_rate=0.2250 third_accept_conditional=0.3803 fourth_accept_rate=0.0458 fourth_accept_conditional=0.2037
+DYNDEPTH rounds=240 extra_hist=[0, 146, 66, 28] q=[0.6741, 0.178, 0.1708] step_ms=0.2398 token_ms=2.9389
+CHAIN2STATS rounds=260 tokens_per_round=2.6038 first_accept_rate=0.7692 second_accept_rate=0.5769 second_accept_conditional=0.7500 third_accept_rate=0.2154 third_accept_conditional=0.3733 fourth_accept_rate=0.0423 fourth_accept_conditional=0.1964
+DYNDEPTH rounds=260 extra_hist=[0, 157, 71, 32] q=[0.6143, 0.3425, 0.054] step_ms=0.2893 token_ms=2.4556
+CHAIN2STATS rounds=280 tokens_per_round=2.5964 first_accept_rate=0.7714 second_accept_rate=0.5714 second_accept_conditional=0.7407 third_accept_rate=0.2143 third_accept_conditional=0.3750 fourth_accept_rate=0.0393 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=280 extra_hist=[0, 159, 89, 32] q=[0.4094, 0.0854, 0.054] step_ms=0.3007 token_ms=2.8860
+CHAIN2STATS rounds=300 tokens_per_round=2.5567 first_accept_rate=0.7633 second_accept_rate=0.5567 second_accept_conditional=0.7293 third_accept_rate=0.2000 third_accept_conditional=0.3593 fourth_accept_rate=0.0367 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=300 extra_hist=[0, 178, 90, 32] q=[0.3362, 0.064, 0.054] step_ms=0.3298 token_ms=3.2326
+CHAIN2STATS rounds=320 tokens_per_round=2.5375 first_accept_rate=0.7625 second_accept_rate=0.5531 second_accept_conditional=0.7254 third_accept_rate=0.1875 third_accept_conditional=0.3390 fourth_accept_rate=0.0344 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=320 extra_hist=[0, 197, 91, 32] q=[0.1656, 0.048, 0.054] step_ms=0.3448 token_ms=3.5274
+CHAIN2STATS rounds=340 tokens_per_round=2.4971 first_accept_rate=0.7529 second_accept_rate=0.5353 second_accept_conditional=0.7109 third_accept_rate=0.1765 third_accept_conditional=0.3297 fourth_accept_rate=0.0324 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=340 extra_hist=[0, 217, 91, 32] q=[0.5779, 0.048, 0.054] step_ms=0.7255 token_ms=2.4877
+CHAIN2STATS rounds=360 tokens_per_round=2.4667 first_accept_rate=0.7472 second_accept_rate=0.5222 second_accept_conditional=0.6989 third_accept_rate=0.1667 third_accept_conditional=0.3191 fourth_accept_rate=0.0306 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=360 extra_hist=[0, 236, 92, 32] q=[0.4493, 0.036, 0.054] step_ms=0.3225 token_ms=2.4595
+CHAIN2STATS rounds=380 tokens_per_round=2.4526 first_accept_rate=0.7447 second_accept_rate=0.5211 second_accept_conditional=0.6996 third_accept_rate=0.1579 third_accept_conditional=0.3030 fourth_accept_rate=0.0289 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=380 extra_hist=[0, 256, 92, 32] q=[0.567, 0.036, 0.054] step_ms=0.3394 token_ms=2.5871
+CHAIN2STATS rounds=400 tokens_per_round=2.4450 first_accept_rate=0.7500 second_accept_rate=0.5175 second_accept_conditional=0.6900 third_accept_rate=0.1500 third_accept_conditional=0.2899 fourth_accept_rate=0.0275 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=400 extra_hist=[0, 275, 93, 32] q=[0.517, 0.027, 0.054] step_ms=0.3157 token_ms=2.1982
+CHAIN2STATS rounds=420 tokens_per_round=2.4286 first_accept_rate=0.7429 second_accept_rate=0.5167 second_accept_conditional=0.6955 third_accept_rate=0.1429 third_accept_conditional=0.2765 fourth_accept_rate=0.0262 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=420 extra_hist=[0, 294, 94, 32] q=[0.3629, 0.0203, 0.054] step_ms=0.3592 token_ms=3.5724
+CHAIN2STATS rounds=440 tokens_per_round=2.4250 first_accept_rate=0.7432 second_accept_rate=0.5205 second_accept_conditional=0.7003 third_accept_rate=0.1364 third_accept_conditional=0.2620 fourth_accept_rate=0.0250 fourth_accept_conditional=0.1833
+DYNDEPTH rounds=440 extra_hist=[0, 314, 94, 32] q=[0.9532, 0.0203, 0.054] step_ms=0.3322 token_ms=1.6680
+CHAIN2STATS rounds=460 tokens_per_round=2.4913 first_accept_rate=0.7543 second_accept_rate=0.5413 second_accept_conditional=0.7176 third_accept_rate=0.1587 third_accept_conditional=0.2932 fourth_accept_rate=0.0370 fourth_accept_conditional=0.2329
+DYNDEPTH rounds=460 extra_hist=[0, 321, 107, 32] q=[0.9999, 0.9767, 0.054] step_ms=0.2725 token_ms=1.2328
+CHAIN2STATS rounds=480 tokens_per_round=2.5771 first_accept_rate=0.7646 second_accept_rate=0.5604 second_accept_conditional=0.7330 third_accept_rate=0.1938 third_accept_conditional=0.3457 fourth_accept_rate=0.0583 fourth_accept_conditional=0.3011
+DYNDEPTH rounds=480 extra_hist=[0, 321, 126, 33] q=[1.0, 0.9999, 0.2905] step_ms=0.2647 token_ms=1.1942
+CHAIN2STATS rounds=500 tokens_per_round=2.5700 first_accept_rate=0.7620 second_accept_rate=0.5540 second_accept_conditional=0.7270 third_accept_rate=0.1960 third_accept_conditional=0.3538 fourth_accept_rate=0.0580 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=500 extra_hist=[0, 321, 138, 41] q=[0.3821, 0.1507, 0.0625] step_ms=0.3884 token_ms=3.4763
+CHAIN2STATS rounds=520 tokens_per_round=2.5519 first_accept_rate=0.7558 second_accept_rate=0.5519 second_accept_conditional=0.7303 third_accept_rate=0.1885 third_accept_conditional=0.3415 fourth_accept_rate=0.0558 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=520 extra_hist=[0, 337, 142, 41] q=[0.7862, 0.0477, 0.0625] step_ms=0.3771 token_ms=1.8720
+CHAIN2STATS rounds=540 tokens_per_round=2.5185 first_accept_rate=0.7426 second_accept_rate=0.5407 second_accept_conditional=0.7282 third_accept_rate=0.1815 third_accept_conditional=0.3356 fourth_accept_rate=0.0537 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=540 extra_hist=[0, 357, 142, 41] q=[0.2693, 0.0477, 0.0625] step_ms=0.3738 token_ms=3.3162
+CHAIN2STATS rounds=560 tokens_per_round=2.5018 first_accept_rate=0.7411 second_accept_rate=0.5339 second_accept_conditional=0.7205 third_accept_rate=0.1750 third_accept_conditional=0.3278 fourth_accept_rate=0.0518 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=560 extra_hist=[0, 376, 143, 41] q=[0.1831, 0.0358, 0.0625] step_ms=0.3515 token_ms=2.9311
+CHAIN2STATS rounds=580 tokens_per_round=2.5017 first_accept_rate=0.7448 second_accept_rate=0.5379 second_accept_conditional=0.7222 third_accept_rate=0.1690 third_accept_conditional=0.3141 fourth_accept_rate=0.0500 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=580 extra_hist=[0, 395, 144, 41] q=[0.6105, 0.0268, 0.0625] step_ms=0.3232 token_ms=2.2450
+CHAIN2STATS rounds=600 tokens_per_round=2.4883 first_accept_rate=0.7433 second_accept_rate=0.5333 second_accept_conditional=0.7175 third_accept_rate=0.1633 third_accept_conditional=0.3063 fourth_accept_rate=0.0483 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=600 extra_hist=[0, 415, 144, 41] q=[0.2025, 0.0268, 0.0625] step_ms=0.3497 token_ms=3.1440
+CHAIN2STATS rounds=620 tokens_per_round=2.4629 first_accept_rate=0.7339 second_accept_rate=0.5242 second_accept_conditional=0.7143 third_accept_rate=0.1581 third_accept_conditional=0.3015 fourth_accept_rate=0.0468 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=620 extra_hist=[0, 434, 145, 41] q=[0.1703, 0.0201, 0.0625] step_ms=0.3177 token_ms=3.8118
+CHAIN2STATS rounds=640 tokens_per_round=2.4328 first_accept_rate=0.7234 second_accept_rate=0.5109 second_accept_conditional=0.7063 third_accept_rate=0.1531 third_accept_conditional=0.2997 fourth_accept_rate=0.0453 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=640 extra_hist=[0, 453, 146, 41] q=[0.0335, 0.0151, 0.0625] step_ms=0.3235 token_ms=3.7196
+CHAIN2STATS rounds=660 tokens_per_round=2.4242 first_accept_rate=0.7242 second_accept_rate=0.5076 second_accept_conditional=0.7008 third_accept_rate=0.1485 third_accept_conditional=0.2925 fourth_accept_rate=0.0439 fourth_accept_conditional=0.2959
+DYNDEPTH rounds=660 extra_hist=[0, 473, 146, 41] q=[0.2027, 0.0151, 0.0625] step_ms=0.3611 token_ms=3.1460
+CHAIN2STATS rounds=680 tokens_per_round=2.4191 first_accept_rate=0.7206 second_accept_rate=0.5074 second_accept_conditional=0.7041 third_accept_rate=0.1485 third_accept_conditional=0.2928 fourth_accept_rate=0.0426 fourth_accept_conditional=0.2871
+DYNDEPTH rounds=680 extra_hist=[0, 484, 155, 41] q=[0.2409, 0.1386, 0.0625] step_ms=0.2832 token_ms=3.4290
+CHAIN2STATS rounds=700 tokens_per_round=2.4343 first_accept_rate=0.7229 second_accept_rate=0.5129 second_accept_conditional=0.7095 third_accept_rate=0.1557 third_accept_conditional=0.3036 fourth_accept_rate=0.0429 fourth_accept_conditional=0.2752
+DYNDEPTH rounds=700 extra_hist=[0, 484, 175, 41] q=[0.6478, 0.5075, 0.0625] step_ms=0.2801 token_ms=2.7757
+CHAIN2STATS rounds=720 tokens_per_round=2.4264 first_accept_rate=0.7208 second_accept_rate=0.5069 second_accept_conditional=0.7033 third_accept_rate=0.1542 third_accept_conditional=0.3041 fourth_accept_rate=0.0444 fourth_accept_conditional=0.2883
+DYNDEPTH rounds=720 extra_hist=[0, 490, 179, 51] q=[0.3158, 0.0481, 0.0557] step_ms=0.3540 token_ms=3.4888
+CHAIN2STATS rounds=740 tokens_per_round=2.4189 first_accept_rate=0.7203 second_accept_rate=0.5054 second_accept_conditional=0.7017 third_accept_rate=0.1500 third_accept_conditional=0.2968 fourth_accept_rate=0.0432 fourth_accept_conditional=0.2883
+DYNDEPTH rounds=740 extra_hist=[0, 509, 180, 51] q=[0.6413, 0.0361, 0.0557] step_ms=0.3692 token_ms=2.1855
+CHAIN2STATS rounds=760 tokens_per_round=2.4145 first_accept_rate=0.7224 second_accept_rate=0.5039 second_accept_conditional=0.6976 third_accept_rate=0.1461 third_accept_conditional=0.2898 fourth_accept_rate=0.0421 fourth_accept_conditional=0.2883
+DYNDEPTH rounds=760 extra_hist=[0, 529, 180, 51] q=[0.7201, 0.0361, 0.0557] step_ms=0.3847 token_ms=1.8746
+CHAIN2STATS rounds=780 tokens_per_round=2.4013 first_accept_rate=0.7179 second_accept_rate=0.4987 second_accept_conditional=0.6946 third_accept_rate=0.1436 third_accept_conditional=0.2879 fourth_accept_rate=0.0410 fourth_accept_conditional=0.2857
+DYNDEPTH rounds=780 extra_hist=[0, 545, 184, 51] q=[0.3311, 0.1169, 0.0557] step_ms=0.3658 token_ms=3.3506
+CHAIN2STATS rounds=800 tokens_per_round=2.3975 first_accept_rate=0.7188 second_accept_rate=0.4988 second_accept_conditional=0.6939 third_accept_rate=0.1400 third_accept_conditional=0.2807 fourth_accept_rate=0.0400 fourth_accept_conditional=0.2857
+DYNDEPTH rounds=800 extra_hist=[0, 562, 187, 51] q=[0.7356, 0.0493, 0.0557] step_ms=0.3274 token_ms=1.8840
+CHAIN2STATS rounds=820 tokens_per_round=2.3902 first_accept_rate=0.7171 second_accept_rate=0.4976 second_accept_conditional=0.6939 third_accept_rate=0.1366 third_accept_conditional=0.2745 fourth_accept_rate=0.0390 fourth_accept_conditional=0.2857
+DYNDEPTH rounds=820 extra_hist=[0, 582, 187, 51] q=[0.152, 0.0493, 0.0557] step_ms=0.3486 token_ms=3.4578
+CHAIN2STATS rounds=840 tokens_per_round=2.3857 first_accept_rate=0.7167 second_accept_rate=0.4976 second_accept_conditional=0.6944 third_accept_rate=0.1333 third_accept_conditional=0.2679 fourth_accept_rate=0.0381 fourth_accept_conditional=0.2857
+DYNDEPTH rounds=840 extra_hist=[0, 601, 188, 51] q=[0.2231, 0.037, 0.0557] step_ms=0.3705 token_ms=2.8369
+CHAIN2STATS rounds=860 tokens_per_round=2.3814 first_accept_rate=0.7174 second_accept_rate=0.4965 second_accept_conditional=0.6921 third_accept_rate=0.1302 third_accept_conditional=0.2623 fourth_accept_rate=0.0372 fourth_accept_conditional=0.2857
+DYNDEPTH rounds=860 extra_hist=[0, 621, 188, 51] q=[0.4444, 0.037, 0.0557] step_ms=0.3415 token_ms=2.7278
+CHAIN2STATS rounds=880 tokens_per_round=2.3761 first_accept_rate=0.7170 second_accept_rate=0.4943 second_accept_conditional=0.6894 third_accept_rate=0.1284 third_accept_conditional=0.2598 fourth_accept_rate=0.0364 fourth_accept_conditional=0.2832
+DYNDEPTH rounds=880 extra_hist=[0, 636, 193, 51] q=[0.4942, 0.0879, 0.0557] step_ms=0.3815 token_ms=2.5482
+CHAIN2STATS rounds=900 tokens_per_round=2.3689 first_accept_rate=0.7167 second_accept_rate=0.4900 second_accept_conditional=0.6837 third_accept_rate=0.1267 third_accept_conditional=0.2585 fourth_accept_rate=0.0356 fourth_accept_conditional=0.2807
+DYNDEPTH rounds=900 extra_hist=[0, 651, 198, 51] q=[0.299, 0.1, 0.0557] step_ms=0.3120 token_ms=2.8131
+CHAIN2STATS rounds=920 tokens_per_round=2.3565 first_accept_rate=0.7141 second_accept_rate=0.4837 second_accept_conditional=0.6773 third_accept_rate=0.1239 third_accept_conditional=0.2562 fourth_accept_rate=0.0348 fourth_accept_conditional=0.2807
+DYNDEPTH rounds=920 extra_hist=[0, 671, 198, 51] q=[0.2564, 0.1, 0.0557] step_ms=0.7128 token_ms=3.4481
+CHAIN2STATS rounds=940 tokens_per_round=2.3500 first_accept_rate=0.7138 second_accept_rate=0.4809 second_accept_conditional=0.6736 third_accept_rate=0.1213 third_accept_conditional=0.2522 fourth_accept_rate=0.0340 fourth_accept_conditional=0.2807
+DYNDEPTH rounds=940 extra_hist=[0, 690, 199, 51] q=[0.358, 0.075, 0.0557] step_ms=0.3997 token_ms=2.7803
+CHAIN2STATS rounds=960 tokens_per_round=2.3438 first_accept_rate=0.7125 second_accept_rate=0.4781 second_accept_conditional=0.6711 third_accept_rate=0.1198 third_accept_conditional=0.2505 fourth_accept_rate=0.0333 fourth_accept_conditional=0.2783
+DYNDEPTH rounds=960 extra_hist=[0, 709, 200, 51] q=[0.5678, 0.3062, 0.0557] step_ms=0.4089 token_ms=2.3711
+CHAIN2STATS rounds=980 tokens_per_round=2.3327 first_accept_rate=0.7082 second_accept_rate=0.4745 second_accept_conditional=0.6700 third_accept_rate=0.1173 third_accept_conditional=0.2473 fourth_accept_rate=0.0327 fourth_accept_conditional=0.2783
+DYNDEPTH rounds=980 extra_hist=[0, 724, 205, 51] q=[0.7217, 0.0727, 0.0557] step_ms=0.4164 token_ms=2.1101
+CHAIN2STATS rounds=1000 tokens_per_round=2.3470 first_accept_rate=0.7140 second_accept_rate=0.4850 second_accept_conditional=0.6793 third_accept_rate=0.1160 third_accept_conditional=0.2392 fourth_accept_rate=0.0320 fourth_accept_conditional=0.2759
+DYNDEPTH rounds=1000 extra_hist=[0, 743, 206, 51] q=[0.9991, 0.3045, 0.0557] step_ms=0.4586 token_ms=1.5610
+CHAIN2STATS rounds=1020 tokens_per_round=2.3794 first_accept_rate=0.7196 second_accept_rate=0.4951 second_accept_conditional=0.6880 third_accept_rate=0.1333 third_accept_conditional=0.2693 fourth_accept_rate=0.0314 fourth_accept_conditional=0.2353
+DYNDEPTH rounds=1020 extra_hist=[0, 743, 226, 51] q=[1.0, 0.9978, 0.0557] step_ms=0.2875 token_ms=1.3489
+CHAIN2STATS rounds=1040 tokens_per_round=2.4154 first_accept_rate=0.7250 second_accept_rate=0.5019 second_accept_conditional=0.6923 third_accept_rate=0.1462 third_accept_conditional=0.2912 fourth_accept_rate=0.0423 fourth_accept_conditional=0.2895
+DYNDEPTH rounds=1040 extra_hist=[0, 743, 229, 68] q=[0.4834, 0.3428, 0.2302] step_ms=0.2517 token_ms=2.2482
+CHAIN2STATS rounds=1060 tokens_per_round=2.4142 first_accept_rate=0.7255 second_accept_rate=0.5019 second_accept_conditional=0.6918 third_accept_rate=0.1453 third_accept_conditional=0.2895 fourth_accept_rate=0.0415 fourth_accept_conditional=0.2857
+DYNDEPTH rounds=1060 extra_hist=[0, 748, 240, 72] q=[0.5217, 0.078, 0.0728] step_ms=0.3537 token_ms=2.7170
+CHAIN2STATS rounds=1080 tokens_per_round=2.4028 first_accept_rate=0.7241 second_accept_rate=0.4954 second_accept_conditional=0.6841 third_accept_rate=0.1426 third_accept_conditional=0.2879 fourth_accept_rate=0.0407 fourth_accept_conditional=0.2857
+DYNDEPTH rounds=1080 extra_hist=[0, 768, 240, 72] q=[0.0369, 0.078, 0.0728] step_ms=0.4465 token_ms=3.4915
+CHAIN2STATS rounds=1100 tokens_per_round=2.4009 first_accept_rate=0.7236 second_accept_rate=0.4955 second_accept_conditional=0.6847 third_accept_rate=0.1418 third_accept_conditional=0.2862 fourth_accept_rate=0.0400 fourth_accept_conditional=0.2821
+DYNDEPTH rounds=1100 extra_hist=[0, 779, 248, 73] q=[0.4014, 0.0643, 0.0546] step_ms=0.3058 token_ms=3.0727
+CHAIN2STATS rounds=1120 tokens_per_round=2.3946 first_accept_rate=0.7223 second_accept_rate=0.4938 second_accept_conditional=0.6836 third_accept_rate=0.1393 third_accept_conditional=0.2821 fourth_accept_rate=0.0393 fourth_accept_conditional=0.2821
+DYNDEPTH rounds=1120 extra_hist=[0, 798, 249, 73] q=[0.119, 0.0482, 0.0546] step_ms=0.3171 token_ms=3.5425
+CHAIN2STATS rounds=1140 tokens_per_round=2.3886 first_accept_rate=0.7211 second_accept_rate=0.4921 second_accept_conditional=0.6825 third_accept_rate=0.1368 third_accept_conditional=0.2781 fourth_accept_rate=0.0386 fourth_accept_conditional=0.2821
+DYNDEPTH rounds=1140 extra_hist=[0, 818, 249, 73] q=[0.8572, 0.0482, 0.0546] step_ms=0.3640 token_ms=1.8629
+CHAIN2STATS rounds=1160 tokens_per_round=2.3819 first_accept_rate=0.7190 second_accept_rate=0.4888 second_accept_conditional=0.6799 third_accept_rate=0.1362 third_accept_conditional=0.2787 fourth_accept_rate=0.0379 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1160 extra_hist=[0, 830, 257, 73] q=[0.0791, 0.0975, 0.0546] step_ms=0.2922 token_ms=2.7467
+CHAIN2STATS rounds=1180 tokens_per_round=2.3720 first_accept_rate=0.7161 second_accept_rate=0.4847 second_accept_conditional=0.6769 third_accept_rate=0.1339 third_accept_conditional=0.2762 fourth_accept_rate=0.0373 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1180 extra_hist=[0, 849, 258, 73] q=[0.065, 0.0731, 0.0546] step_ms=0.3192 token_ms=3.7613
+CHAIN2STATS rounds=1200 tokens_per_round=2.3617 first_accept_rate=0.7125 second_accept_rate=0.4808 second_accept_conditional=0.6749 third_accept_rate=0.1317 third_accept_conditional=0.2738 fourth_accept_rate=0.0367 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1200 extra_hist=[0, 868, 259, 73] q=[0.4683, 0.0549, 0.0546] step_ms=0.3259 token_ms=2.5574
+CHAIN2STATS rounds=1220 tokens_per_round=2.3533 first_accept_rate=0.7098 second_accept_rate=0.4779 second_accept_conditional=0.6732 third_accept_rate=0.1295 third_accept_conditional=0.2710 fourth_accept_rate=0.0361 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1220 extra_hist=[0, 887, 260, 73] q=[0.3299, 0.0411, 0.0546] step_ms=0.3182 token_ms=3.0066
+CHAIN2STATS rounds=1240 tokens_per_round=2.3452 first_accept_rate=0.7073 second_accept_rate=0.4750 second_accept_conditional=0.6716 third_accept_rate=0.1274 third_accept_conditional=0.2683 fourth_accept_rate=0.0355 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1240 extra_hist=[0, 907, 260, 73] q=[0.4377, 0.0411, 0.0546] step_ms=0.3468 token_ms=2.5397
+CHAIN2STATS rounds=1260 tokens_per_round=2.3349 first_accept_rate=0.7032 second_accept_rate=0.4714 second_accept_conditional=0.6704 third_accept_rate=0.1254 third_accept_conditional=0.2660 fourth_accept_rate=0.0349 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1260 extra_hist=[0, 926, 261, 73] q=[0.3989, 0.0309, 0.0546] step_ms=0.3427 token_ms=2.9338
+CHAIN2STATS rounds=1280 tokens_per_round=2.3320 first_accept_rate=0.7031 second_accept_rate=0.4711 second_accept_conditional=0.6700 third_accept_rate=0.1234 third_accept_conditional=0.2620 fourth_accept_rate=0.0344 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1280 extra_hist=[0, 945, 262, 73] q=[0.4244, 0.0231, 0.0546] step_ms=0.3176 token_ms=2.5345
+CHAIN2STATS rounds=1300 tokens_per_round=2.3254 first_accept_rate=0.7008 second_accept_rate=0.4692 second_accept_conditional=0.6696 third_accept_rate=0.1215 third_accept_conditional=0.2590 fourth_accept_rate=0.0338 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1300 extra_hist=[0, 965, 262, 73] q=[0.5087, 0.0231, 0.0546] step_ms=0.3470 token_ms=2.9182
+CHAIN2STATS rounds=1320 tokens_per_round=2.3250 first_accept_rate=0.7015 second_accept_rate=0.4705 second_accept_conditional=0.6706 third_accept_rate=0.1197 third_accept_conditional=0.2544 fourth_accept_rate=0.0333 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1320 extra_hist=[0, 984, 263, 73] q=[0.446, 0.0174, 0.0546] step_ms=0.3359 token_ms=2.5816
+CHAIN2STATS rounds=1340 tokens_per_round=2.3239 first_accept_rate=0.7015 second_accept_rate=0.4716 second_accept_conditional=0.6723 third_accept_rate=0.1179 third_accept_conditional=0.2500 fourth_accept_rate=0.0328 fourth_accept_conditional=0.2785
+DYNDEPTH rounds=1340 extra_hist=[0, 1004, 263, 73] q=[0.9315, 0.0174, 0.0546] step_ms=0.6545 token_ms=1.9076
+CHAIN2STATS rounds=1360 tokens_per_round=2.3456 first_accept_rate=0.7059 second_accept_rate=0.4794 second_accept_conditional=0.6792 third_accept_rate=0.1279 third_accept_conditional=0.2669 fourth_accept_rate=0.0324 fourth_accept_conditional=0.2529
+DYNDEPTH rounds=1360 extra_hist=[0, 1008, 279, 73] q=[0.9998, 0.9902, 0.0546] step_ms=0.2678 token_ms=1.3631
+CHAIN2STATS rounds=1380 tokens_per_round=2.3732 first_accept_rate=0.7101 second_accept_rate=0.4870 second_accept_conditional=0.6857 third_accept_rate=0.1406 third_accept_conditional=0.2887 fourth_accept_rate=0.0355 fourth_accept_conditional=0.2526
+DYNDEPTH rounds=1380 extra_hist=[0, 1008, 294, 78] q=[1.0, 1.0, 0.7757] step_ms=0.2453 token_ms=1.2430
+CHAIN2STATS rounds=1400 tokens_per_round=2.3779 first_accept_rate=0.7100 second_accept_rate=0.4857 second_accept_conditional=0.6841 third_accept_rate=0.1429 third_accept_conditional=0.2941 fourth_accept_rate=0.0393 fourth_accept_conditional=0.2750
+DYNDEPTH rounds=1400 extra_hist=[0, 1008, 294, 98] q=[0.1763, 0.0913, 0.0906] step_ms=0.2453 token_ms=3.7864
+CHAIN2STATS rounds=1420 tokens_per_round=2.3789 first_accept_rate=0.7106 second_accept_rate=0.4852 second_accept_conditional=0.6829 third_accept_rate=0.1444 third_accept_conditional=0.2975 fourth_accept_rate=0.0387 fourth_accept_conditional=0.2683
+DYNDEPTH rounds=1420 extra_hist=[0, 1013, 307, 100] q=[0.303, 0.2802, 0.051] step_ms=0.2727 token_ms=2.6768
+CHAIN2STATS rounds=1440 tokens_per_round=2.3729 first_accept_rate=0.7090 second_accept_rate=0.4826 second_accept_conditional=0.6807 third_accept_rate=0.1431 third_accept_conditional=0.2964 fourth_accept_rate=0.0382 fourth_accept_conditional=0.2670
+DYNDEPTH rounds=1440 extra_hist=[0, 1023, 317, 100] q=[0.3909, 0.0492, 0.051] step_ms=0.4082 token_ms=2.7407
+CHAIN2STATS rounds=1460 tokens_per_round=2.3651 first_accept_rate=0.7068 second_accept_rate=0.4795 second_accept_conditional=0.6783 third_accept_rate=0.1411 third_accept_conditional=0.2943 fourth_accept_rate=0.0377 fourth_accept_conditional=0.2670
+DYNDEPTH rounds=1460 extra_hist=[0, 1043, 317, 100] q=[0.088, 0.0492, 0.051] step_ms=0.3307 token_ms=3.4853
+CHAIN2STATS rounds=1480 tokens_per_round=2.3635 first_accept_rate=0.7068 second_accept_rate=0.4804 second_accept_conditional=0.6797 third_accept_rate=0.1392 third_accept_conditional=0.2897 fourth_accept_rate=0.0372 fourth_accept_conditional=0.2670
+DYNDEPTH rounds=1480 extra_hist=[0, 1062, 318, 100] q=[0.6676, 0.0369, 0.051] step_ms=0.3619 token_ms=2.3481
+CHAIN2STATS rounds=1500 tokens_per_round=2.3647 first_accept_rate=0.7087 second_accept_rate=0.4820 second_accept_conditional=0.6802 third_accept_rate=0.1373 third_accept_conditional=0.2849 fourth_accept_rate=0.0367 fourth_accept_conditional=0.2670
+DYNDEPTH rounds=1500 extra_hist=[0, 1082, 318, 100] q=[0.7615, 0.0369, 0.051] step_ms=0.3454 token_ms=2.0022
+CHAIN2STATS rounds=1520 tokens_per_round=2.3638 first_accept_rate=0.7079 second_accept_rate=0.4822 second_accept_conditional=0.6812 third_accept_rate=0.1375 third_accept_conditional=0.2851 fourth_accept_rate=0.0362 fourth_accept_conditional=0.2632
+DYNDEPTH rounds=1520 extra_hist=[0, 1087, 333, 100] q=[0.5004, 0.0524, 0.051] step_ms=0.2899 token_ms=2.9342
+CHAIN2STATS rounds=1540 tokens_per_round=2.3584 first_accept_rate=0.7071 second_accept_rate=0.4799 second_accept_conditional=0.6786 third_accept_rate=0.1357 third_accept_conditional=0.2828 fourth_accept_rate=0.0357 fourth_accept_conditional=0.2632
+DYNDEPTH rounds=1540 extra_hist=[0, 1106, 334, 100] q=[0.2801, 0.0393, 0.051] step_ms=0.3443 token_ms=3.2921
+CHAIN2STATS rounds=1560 tokens_per_round=2.3551 first_accept_rate=0.7071 second_accept_rate=0.4788 second_accept_conditional=0.6772 third_accept_rate=0.1340 third_accept_conditional=0.2798 fourth_accept_rate=0.0353 fourth_accept_conditional=0.2632
+DYNDEPTH rounds=1560 extra_hist=[0, 1126, 334, 100] q=[0.2707, 0.0393, 0.051] step_ms=0.3481 token_ms=3.5197
+CHAIN2STATS rounds=1580 tokens_per_round=2.3494 first_accept_rate=0.7057 second_accept_rate=0.4766 second_accept_conditional=0.6753 third_accept_rate=0.1323 third_accept_conditional=0.2776 fourth_accept_rate=0.0348 fourth_accept_conditional=0.2632
+DYNDEPTH rounds=1580 extra_hist=[0, 1145, 335, 100] q=[0.6061, 0.0295, 0.051] step_ms=0.5478 token_ms=2.2699
+CHAIN2STATS rounds=1600 tokens_per_round=2.3394 first_accept_rate=0.7019 second_accept_rate=0.4725 second_accept_conditional=0.6732 third_accept_rate=0.1306 third_accept_conditional=0.2765 fourth_accept_rate=0.0344 fourth_accept_conditional=0.2632
+DYNDEPTH rounds=1600 extra_hist=[0, 1164, 336, 100] q=[0.1924, 0.0221, 0.051] step_ms=0.4782 token_ms=3.9090
+CHAIN2STATS rounds=1620 tokens_per_round=2.3395 first_accept_rate=0.7025 second_accept_rate=0.4741 second_accept_conditional=0.6749 third_accept_rate=0.1290 third_accept_conditional=0.2721 fourth_accept_rate=0.0340 fourth_accept_conditional=0.2632
+DYNDEPTH rounds=1620 extra_hist=[0, 1184, 336, 100] q=[0.839, 0.0221, 0.051] step_ms=0.4785 token_ms=1.7647
+CHAIN2STATS rounds=1640 tokens_per_round=2.3360 first_accept_rate=0.7018 second_accept_rate=0.4726 second_accept_conditional=0.6733 third_accept_rate=0.1280 third_accept_conditional=0.2710 fourth_accept_rate=0.0335 fourth_accept_conditional=0.2619
+DYNDEPTH rounds=1640 extra_hist=[0, 1199, 341, 100] q=[0.6336, 0.0843, 0.051] step_ms=0.3288 token_ms=2.2025
+CHAIN2STATS rounds=1660 tokens_per_round=2.3355 first_accept_rate=0.7030 second_accept_rate=0.4729 second_accept_conditional=0.6727 third_accept_rate=0.1265 third_accept_conditional=0.2675 fourth_accept_rate=0.0331 fourth_accept_conditional=0.2619
+DYNDEPTH rounds=1660 extra_hist=[0, 1219, 341, 100] q=[0.6344, 0.0843, 0.051] step_ms=0.3230 token_ms=2.1424
+{
+  "backend": "sglang",
+  "sample_count": 100,
+  "avg_ttft_ms": 24.097,
+  "avg_throughput_tokens_per_sec": 380.586,
+  "accuracy": 0.82,
+  "public_validation_passed": true
+}
+[W901 15:17:34.925430337 CudaIPCTypes.cpp:16] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
